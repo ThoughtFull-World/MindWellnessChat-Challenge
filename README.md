@@ -1,39 +1,56 @@
-# 🌟 Welcome to the ThoughtFull Engineering Challenge: MindWellnessChat Edition!
+# Mind Wellness Socket Chat
 
-## We appreciate your interest in our front-end / full-stack practical coding challenge.
+Welcome to the Mind Wellness Socket Chat project! This repository is a simple chat application that utilizes the powerful STOMP protocol for seamless communication. The application consists of a Spring Boot backend server, a user-friendly Android client, and a convenient HTML-based messaging interface for browsers.
 
-#### Your mission is to craft an ingenious Mental Health Chat App that seamlessly connects users in a supportive virtual environment. This challenge dives deep into your front-end / full-stack development skills, examining your prowess in code structuring, styling, and best practices.
+## Table of Contents
+* Introduction
+* Features
+* Technologies
+* Getting Started
+* Usage
 
+## Introduction
+This project mainly focused on scalability. Used MySQL relational DB for maintaining ACID property properly. 
 
-### Task Overview:
+## Features
 
-Your goal is to construct a user-centric Mental Health Chat App that fosters meaningful conversations between users. Drawing inspiration from popular messaging apps like WhatsApp, design an engaging platform that facilitates real-time chat experiences. While we offer mockup to guide the app's visual appeal, there are no rigid business rules or constraints. We encourage you to unleash your creativity and technical know-how, crafting a chat application that stands out. Complexity is your playground.
+* Real-time messaging with the STOMP protocol.
+* Use Rest protocol for managing other communication.
+* Implement JWT token based authentication.
+* Spring Boot backend server for handling communication.
+* Implement users Avatar.
+* Delivery/Seen status indicators.
+* Browser-based messaging interface for convenient communication.
 
-<p align="center">
-<img src="https://github.com/ThoughtFull-World/MindWellnessChat-Challenge/assets/131954589/74a58917-406d-45b1-b5a8-caf70f4be7d7" width="322" height="780">
-</p>
+## Technology
+* Spring Boot
+* MySql
+* Android (StompProtocolAndroid)
+* HTML, CSS, JavaScript (for the browser-based interface)
+* Websocket Protocol
+* REST API 
+* Token based authentication 
 
-### Prerequisites:
+## Getting Started
+To get started with the project, follow these steps:
+* Install Java 17 
+* Install MySql
+* Setup Android Studio 
+* Create a DB called socket_chat or other you want, just change the name from application.properties
+* Open the WebSocketServer project as maven project. Run the project using 
+```mvn spring-boot:run```
+* Import AndroidClient in Android Studio 
+* Change the IP_ADDRESS(Should be the server IP address) from Cons.Java file inside the package com.socket.chat.conf
+* Then run the client register the account and do the chatting
 
-No specific prerequisites are imposed. Our primary tech stack includes, but is not limited to React JS, React Native, Node.js, and other relevant technologies. Opt for languages and tools you are most comfortable with.
+## Improvement & known issue
+* Test case for Server and Android
+* Need to create more robust web front end
+* Implement pagination in the mobile app
+* Need to implement the message receiver event in the chat list  
+* Need to check the ID verification on the server side on subscription with the stompclient 
+* Feature like group chat, friends, block user can be implemented
+* Introduce BOT 
 
-
-### Key Features:
-
-* Craft a simplified real-time chat interface.
-* Elevate the user experience by showcasing user avatars.
-* Enhance engagement by displaying delivery/read status indicators.
-* Add an interactive touch by incorporating chat timestamps.
-* Optional: Implement emoticon support for an expressive chat experience.
-
-
-### Submission Guidelines:
-- [x] Start by forking this repository. Upon completion, submit a Pull Request to share your solution.
-- [x] Provide clear, concise instructions for running the app, installing dependencies, and other necessary information.
-- [x] Leverage version control to document your coding journey, allowing us to witness your development process.
-
-### Questions?
-
-Feel free to reach out if you encounter queries or need clarification while crafting your solution. Direct your questions to tech@thoughtfull.world.
-
-**May the coding muse be with you! Show us your brilliance and innovation.** 🚀
+## Video Demo
+https://youtu.be/SW0WDbNru7Q
