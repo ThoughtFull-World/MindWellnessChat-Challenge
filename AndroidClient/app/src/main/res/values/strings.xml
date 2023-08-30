@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Socket Chat</string>
+
+    <string name="broadcast">Broadcast</string>
+    <string name="groups">Groups</string>
+    <string name="chat">Chat</string>
+
+    <string name="broadcast_prompt">Please input you name:</string>
+    <string name="send">Send</string>
+
+    <string name="group_prompt">Please input the group id:</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="id_prompt">Please input you id:</string>
+    <string name="chat_user_id">Please input chat user id:</string>
+    <string name="chat_message">Please input chat message</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="todo">TODO</string>
+    <string name="set_new_photo">Set new photo</string>
+    <string name="best_way_to_connect_people">Best way to connect people</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="new_user_register">New User? Register</string>
+    <string name="about">about</string>
+    <string name="online">Online</string>
+    <string name="register">Register</string>
+    <string name="welcome_to_socket_chat">Welcome to socket chat</string>
+    <string name="_00_00">00:00</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="enter_message">Enter message</string>
+    <string name="_01_00_pm">01:00 pm</string>
+    <string name="message">message</string>
+    <string name="_01_30_pm">01:30 pm</string>
+</resources>

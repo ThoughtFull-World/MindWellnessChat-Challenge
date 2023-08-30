@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chatUser"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/parent_image_view"
+        android:layout_alignParentStart="true"
+        app:cardCornerRadius="25dp"
+        >
+        <ImageView
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/imageContact"
+            android:src="@drawable/avatar_placeholder"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/todo" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/chatName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/parent_image_view"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:text="@string/user_name"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recentTime"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        />
+
+
+
+</RelativeLayout>

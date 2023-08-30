@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="interstitial_progress_bar_height">82dp</dimen>
+    <dimen name="land_home_screen_text_size">76dp</dimen>
+
+
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+
+    <dimen name="dp_12">12dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="showing_top">20dp</dimen>
+    <dimen name="interstitial_progress_bar_bottom">20dp</dimen>
+    <dimen name="land_home_screen_margin">20dp</dimen>
+    <dimen name="forgot_pin_text_size">20dp</dimen>
+
+
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="showing_ad_text_size">18dp</dimen>
+
+    <dimen name="dp_50">50dp</dimen>
+
+    <dimen name="dp_70">90dp</dimen>
+    <dimen name="dp_40">60dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+
+
+    <dimen name="dp_100">100dp</dimen>
+
+
+
+</resources>
